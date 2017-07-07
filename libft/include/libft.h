@@ -6,7 +6,7 @@
 /*   By: mallard <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/17 15:43:20 by mallard           #+#    #+#             */
-/*   Updated: 2017/04/20 18:00:24 by mallard          ###   ########.fr       */
+/*   Updated: 2017/06/25 22:50:47 by mallard          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,5 +92,10 @@ int				ft_lstsize(t_list *list);
 char			*ft_strjoin_f(char *s1, char *s2, int nbr);
 int				ft_lstresearch(int fd, t_list **lst);
 int				get_next_line(int fd, char **line);
+void			ft_print_tab(char **tab);
+char			**ft_newtab(int size);
+void			ft_tabdel(char **tab);
+char			**ft_add_str_to_tab(char **tab, char *str, int free);
+int				ft_tablen(char **tab);
 
 #endif
