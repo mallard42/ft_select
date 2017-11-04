@@ -6,7 +6,7 @@
 /*   By: mallard <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/29 05:01:25 by mallard           #+#    #+#             */
-/*   Updated: 2017/06/30 00:18:05 by mallard          ###   ########.fr       */
+/*   Updated: 2017/11/02 17:42:37 by mallard          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 t_size		ini_size(int size_max)
 {
-	struct winsize  w;
+	struct winsize	w;
 	t_size			size;
 
 	ioctl(0, TIOCGWINSZ, &w);
@@ -40,10 +40,10 @@ int			max_size(char **t)
 	return (max);
 }
 
-void        char_del(char **t, int i, int free)
+void		char_del(char **t, int i, int free)
 {
-	int             size;
-	char            *tmp;
+	int				size;
+	char			*tmp;
 
 	size = ft_tablen(t);
 	tmp = t[i];

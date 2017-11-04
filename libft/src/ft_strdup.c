@@ -6,12 +6,13 @@
 /*   By: mallard <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 16:22:57 by mallard           #+#    #+#             */
-/*   Updated: 2016/11/21 16:01:55 by mallard          ###   ########.fr       */
+/*   Updated: 2017/09/08 15:19:21 by mallard          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/libft.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 char		*ft_strdup(char *src)
 {

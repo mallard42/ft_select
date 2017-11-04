@@ -22,8 +22,7 @@ char		*ft_strjoin_f(char *s1, char *s2, int nbr)
 	if (!s2)
 		return (s1);
 	i = ft_strlen((char *)s1) + ft_strlen((char *)s2);
-	if (!(str = ft_strnew(i)))
-		return (NULL);
+	str = ft_strnew(i);
 	str = ft_strcpy(str, s1);
 	str = ft_strcat(str, s2);
 	str[i] = '\0';

@@ -6,7 +6,7 @@
 #    By: mallard <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/05/21 17:28:15 by mallard           #+#    #+#              #
-#    Updated: 2017/06/30 02:44:15 by mallard          ###   ########.fr        #
+#    Updated: 2017/11/03 15:53:11 by mallard          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ NAME = ft_select
 
 LIBFT = ./libft/libft.a
 
-SRC = main.c print.c size.c
+SRC = main.c print.c size.c touch.c arg.c touch2.c signal.c
 
 SRCS = $(addprefix src/, $(SRC));
 

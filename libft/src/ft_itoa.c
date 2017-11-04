@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "../include/libft.h"
+#include <stdlib.h>
 
 static char			*alloc(long n)
 {
@@ -23,8 +24,7 @@ static char			*alloc(long n)
 	div = 1;
 	if (n < 0)
 		nb++;
-	if (!(str = ft_strnew(ft_intlen(nb))))
-		return (0);
+	str = ft_strnew(ft_intlen(nb));
 	return (str);
 }
 
@@ -58,8 +58,7 @@ char				*ft_itoa(int n)
 	str = NULL;
 	div = 1;
 	nbr = n;
-	if (!(str = alloc(nbr)))
-		return (NULL);
+	str = alloc(nbr);
 	if (n < 0)
 		str[0] = '-';
 	nb = ft_abs(n);

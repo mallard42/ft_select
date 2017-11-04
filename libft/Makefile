@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: mallard <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2016/11/10 12:22:19 by mallard           #+#    #+#              #
-#    Updated: 2017/06/25 22:59:43 by mallard          ###   ########.fr        #
+#    Created: 2017/07/10 05:47:23 by mallard           #+#    #+#              #
+#    Updated: 2017/07/10 05:50:15 by mallard          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,8 +17,6 @@ GREEN = \033[38;5;64m
 DEFAULT = \x1b[0m
 
 FLAGS = -Werror -Wall -Wextra
-
-S = ./src/
 
 SRC = ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_memmove.c \
 	  ft_memchr.c ft_memcmp.c ft_strlen.c ft_strdup.c ft_strcpy.c ft_strcat.c \
